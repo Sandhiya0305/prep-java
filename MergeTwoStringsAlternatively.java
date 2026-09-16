@@ -1,7 +1,7 @@
 public class MergeTwoStringsAlternatively {
 
     public static String mergeString(String str1, String str2) {
-        int i1 = 1, i2 = 0, l1 = str1.length(), l2 = str2.length(), flag = 0;
+        int i1 = 1, i2 = 0, l1 = str1.length(), l2 = str2.length();
         String merged = String.valueOf(str1.charAt(0));
         while(i1 < l1 && i2 < l2) {
             if(i2 < i1) {
