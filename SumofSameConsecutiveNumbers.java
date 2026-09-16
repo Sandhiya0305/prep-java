@@ -8,7 +8,7 @@ public class SumofSameConsecutiveNumbers {
                 if(count == k) return curr * k;
                 else {
                     curr = nums[i];
-                    count = 0;
+                    count = 1;
                 }
             }
         }
